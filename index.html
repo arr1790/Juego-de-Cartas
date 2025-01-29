@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parejas Mario Bross</title>
+    <link rel="icon" href="imagenes/super-mario-bros3-super-mario.gif" type="image/gif">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="contenedor">
+        
+
+        <div class="titulo-contenedor">
+            <h1>Juego de la Memoria personajes de Mario Bros</h1>
+            <label for="numCartas" class="select-label">Número de cartas:</label>
+            <select id="numCartas" class="select-cartas"></select>
+            <audio controls src="audio/Super Mario Bros. Theme Song.mp3">
+            </audio>
+            <div id="cronometro">
+                <p id="horas">00</p>
+                <p>:</p>
+                <p id="minutos">00</p>
+                <p>:</p>
+                <p id="segundos">00</p>
+            </div>
+            <div class="empezarJuego">
+                <button id="botonJugar">¿Listo para Jugar?</button>
+                <button id="botonReiniciar"><a href="index.html">Reiniciar juego</a></button>
+            </div>
+
+        </div>
+
+        <div id="tablero"></div>
+
+
+
+    </div>
+   
+    <script src="scripts.js"></script>
+</body>
+
+</html>
